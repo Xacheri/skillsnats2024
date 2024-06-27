@@ -1,0 +1,48 @@
+
+
+/* Desktop */
+@media (min-width: 1025px) {
+
+   #community_images {
+    display:flex;
+    flex-direction:row;
+   }
+
+   .header_images {
+    width: 30%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    height: min-content;
+    }
+
+    .images_title {
+        text-align: center;
+        line-height: 50px;
+    }
+}
+
+
+
+/* Tablet */
+
+@media (max-width: 1024px) {
+    .flex-column-desktop {
+      flex-direction: column;
+    }
+    
+    .h-desktop {
+      display: none;
+    }
+}
+
+/* Phone */
+
+@media (max-width: 480px) {
+    .flex-column-desktop {
+      flex-direction: column;
+    }
+    
+    .h-desktop {
+      display: none;
+    }
+}
