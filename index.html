@@ -8,25 +8,22 @@
   <link rel="stylesheet" href="utilities.css">
 
   <title>Salveo Communities | Homes for Heros</title>
+  <link rel="stylesheet" href="./utilities.css">
 </head>
 <body>
-  <div id="root">
+  <div class="_header"></div>
+  <div id="root" class="d-flex flex-row-desktop flex-column">
     <div class="_navigation"></div>
     <div class="content">
       <div class="_header_images"> </div>
     </div>
-
   </div>
   <script src="./LoadComponent.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       // define component loads here 
       LoadComponent('./components/navigation.html', '_navigation');
-    });
-
-    document.addEventListener('DOMContentLoaded', () => {
-      // define component loads here 
-      LoadComponent('./components/communityImages.html', '_header_images');
+      LoadComponent('./components/header.html', '_header');
     });
   </script>
 </body>
