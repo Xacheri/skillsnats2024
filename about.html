@@ -17,9 +17,15 @@
     <div class="_header"></div>
     <div id="root" class="d-flex flex-row-desktop flex-column">
         <div class="_navigation"></div>
-        <div class="content d-flex justify-center">
-        <div style="max-width:75%;" class="_header_images"> </div>
+        <div class="content d-flex justify-center flex-column-desktop">
+          <div class="_header_images w-100"> </div>
+<div class=" d-flex justify-center">
+        <div class='_about-text'></div>
         </div>
+
+        </div>
+    </div>
+
       <div class="d-flex justify-center">
         <div class="_footer"></div>
       </div>
@@ -32,6 +38,7 @@
         LoadComponent('./components/navigation.html', '_navigation');
         LoadComponent('./components/header.html', '_header');
         LoadComponent('./components/communityImages.html', '_header_images');
+        LoadComponent('./components/about-text.html', '_about-text');
         LoadComponent('./components/footer.html', '_footer');
       });
     </script>
