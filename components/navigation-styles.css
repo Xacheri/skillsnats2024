@@ -1,18 +1,11 @@
-
-.d-flex {
+.nav-list {
   display: flex;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.justify-around {
   justify-content: space-around;
+  align-items: center;
 }
 
 @media (min-width: 1025) {
-  .flex-column-desktop {
+  .nav-list {
     flex-direction: column;
   }
 }
