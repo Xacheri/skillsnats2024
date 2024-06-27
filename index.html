@@ -14,8 +14,8 @@
   <div class="_header"></div>
   <div id="root" class="d-flex flex-row-desktop flex-column">
     <div class="_navigation"></div>
-    <div class="content">
-      <div class="_header_images"> </div>
+    <div class="content d-flex justify-center">
+      <div style="max-width:75%;" class="_header_images"> </div>
     </div>
   </div>
   <script src="./LoadComponent.js"></script>
@@ -24,6 +24,7 @@
       // define component loads here 
       LoadComponent('./components/navigation.html', '_navigation');
       LoadComponent('./components/header.html', '_header');
+      LoadComponent('./components/communityImages.html', '_header_images');
     });
   </script>
 </body>
