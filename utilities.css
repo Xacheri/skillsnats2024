@@ -11,8 +11,12 @@
   justify-content: space-around;
 }
 
-@media (min-width: 1025) {
+@media (min-width: 1025px) {
   .flex-column-desktop {
     flex-direction: column;
+  }
+  
+  .h-desktop {
+    display: none;
   }
 }
