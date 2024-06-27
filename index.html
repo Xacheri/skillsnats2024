@@ -3,12 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="components/communityImages.css">
+  <link rel="stylesheet" href="utilities.css">
+
   <title>Salveo Communities | Homes for Heros</title>
 </head>
 <body>
   <div id="root">
     <div class="_navigation"></div>
-    <div class="content"></div>
+    <div class="content">
+      <div class="_header_images"> </div>
+    </div>
 
   </div>
   <script src="./LoadComponent.js"></script>
@@ -16,6 +22,11 @@
     document.addEventListener('DOMContentLoaded', () => {
       // define component loads here 
       LoadComponent('./components/navigation.html', '_navigation');
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // define component loads here 
+      LoadComponent('./components/communityImages.html', '_header_images');
     });
   </script>
 </body>
