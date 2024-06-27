@@ -8,4 +8,10 @@ welcomeboard.jpg - Photo by Aaron Burden on Unsplash
 
 vetandbag.jpg - Photo by Benjamin Faust on Unsplash
 
+huskyservice.jpg - Photo by Brian Wangenheim on Unsplash
+
+germanshephard.jpg - Photo by Anish Hassan on Unsplash
+  
+  
+
 coolors - color pallete generation tool

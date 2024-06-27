@@ -5,6 +5,17 @@
     --white: #E9F1F7;
     --dark-blue: #3B3561;
     --black: #292F36;
+
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .bg-darkblue {
@@ -66,6 +77,11 @@
 
 .text-center {
   text-align: center;
+}
+
+.box-shadow {
+  box-shadow: 2px 2px var(--dark-blue);
+
 }
 
 @media (max-width: 480px) {
