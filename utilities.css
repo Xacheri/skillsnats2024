@@ -1,11 +1,24 @@
 
 * {
-   --light-blue: #409FDB;
+    --light-blue: #409FDB;
     --red: #DD7373;
     --white: #E9F1F7;
     --dark-blue: #3B3561;
     --black: #292F36;
 }
+
+.bg-darkblue {
+  background-color: var(--dark-blue);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
 
 .flex-row {
   flex-direction: row;
