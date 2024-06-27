@@ -2,4 +2,10 @@ gardening.jpg - Photo by CDC on Unsplash
 
 together.jpg - Photo by Helena Lopes on Unsplash
   
-  
+holdinghangs.jpg -Photo by krakenimages on Unsplash
+
+welcomeboard.jpg - Photo by Aaron Burden on Unsplash
+
+vetandbag.jpg - Photo by Benjamin Faust on Unsplash
+
+coolors - color pallete generation tool

@@ -4,15 +4,14 @@
 }
 
 
+.images_title {
+    text-align: center;
+    line-height: 50px;
+}
+
 
 /* Desktop */
 @media (min-width: 1025px) {
-
-    .images_title {
-        text-align: center;
-        line-height: 50px;
-    }
-
     .header_images {
         width: 30%;
         margin-left: 1.5%;
