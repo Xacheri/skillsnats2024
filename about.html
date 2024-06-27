@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+    <link rel="stylesheet" href="components/communityImages.css">
+    <link rel="stylesheet" href="utilities.css">
+
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="_header"></div>
+    <div id="root" class="d-flex flex-row-desktop flex-column">
+        <div class="_navigation"></div>
+        <div class="content d-flex justify-center">
+        <div style="max-width:75%;" class="_header_images"> </div>
+        </div>
+     </div>
+    <script src="./LoadComponent.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // define component loads here 
+        LoadComponent('./components/navigation.html', '_navigation');
+        LoadComponent('./components/header.html', '_header');
+        LoadComponent('./components/communityImages.html', '_header_images');
+      });
+    </script>
 </body>
 </html>
