@@ -18,12 +18,18 @@
   <div class="_header"></div>
   <div id="root" class="d-flex flex-row-desktop flex-column">
     <div class="_navigation"></div>
-    <div class="content">
+    <div class="content p-1">
       <div class="d-flex justify-center">
         <div style="max-width:75%;" class="_header_images"> </div>
       </div>
       <div class="d-flex justify-center">
         <div class="_our-story"></div>
+      </div>
+      <div class="d-flex justify-center">
+        <div class="_our-story-img"></div>
+      </div>
+      <div class="d-flex justify-center">
+        <div class="_footer"></div>
       </div>
     </div>
   </div>
@@ -35,6 +41,8 @@
       LoadComponent('./components/header.html', '_header');
       LoadComponent('./components/communityImages.html', '_header_images');
       LoadComponent('./components/our-story.html', '_our-story');
+      LoadComponent('./components/our-story-images.html', '_our-story-img');
+      LoadComponent('./components/footer.html', '_footer');
     });
   </script>
 </body>
