@@ -64,6 +64,10 @@
   justify-content: space-around;
 }
 
+.text-center {
+  text-align: center;
+}
+
 @media (max-width: 480px) {
   .text-tiny-mobile {
     font-size: 0.7rem;
