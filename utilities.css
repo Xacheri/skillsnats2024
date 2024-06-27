@@ -30,6 +30,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--white);
 }
 
+.m-1 {
+  margin: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
 
 .flex-row {
   flex-direction: row;
@@ -110,5 +118,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .p-1-desktop {
     padding: 1rem;
+  }
+
+
+  .two-col-desktop {
+    column-count: 2;
   }
 }
