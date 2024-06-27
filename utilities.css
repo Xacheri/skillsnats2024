@@ -1,0 +1,18 @@
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+@media (min-width: 1025) {
+  .justify-column-desktop {
+    flex-direction: column;
+  }
+}
