@@ -4,18 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Salveo Communities | Homes for Heros</title>
+  <link rel="stylesheet" href="./utilities.css">
 </head>
 <body>
-  <div id="root">
+  <div class="_header"></div>
+  <div id="root" class="d-flex flex-row-desktop flex-column">
     <div class="_navigation"></div>
     <div class="content"></div>
-
   </div>
   <script src="./LoadComponent.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       // define component loads here 
       LoadComponent('./components/navigation.html', '_navigation');
+      LoadComponent('./components/header.html', '_header');
     });
   </script>
 </body>

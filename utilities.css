@@ -1,6 +1,42 @@
 
+* {
+   --light-blue: #409FDB;
+    --red: #DD7373;
+    --white: #E9F1F7;
+    --dark-blue: #3B3561;
+    --black: #292F36;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.vw-100 {
+  width: 100vw;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
 .d-flex {
   display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.no-indent {
+  text-indent: 0px !important;
+}
+
+.no-pad-left {
+  padding-left: 0px;
 }
 
 .justify-center {
@@ -11,12 +47,31 @@
   justify-content: space-around;
 }
 
+@media (max-width: 480px) {
+  .text-tiny-mobile {
+    font-size: 0.7rem;
+  }
+}
+
 @media (min-width: 1025px) {
   .flex-column-desktop {
     flex-direction: column;
   }
+
+  .fit-content-desktop {
+    min-width: fit-content;
+  }
   
   .h-desktop {
     display: none;
+  }
+
+  .flex-row-desktop {
+    flex-direction: row;
+  }
+
+
+  .p-1-desktop {
+    padding: 1rem;
   }
 }
