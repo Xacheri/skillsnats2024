@@ -25,9 +25,6 @@
 /* Tablet */
 
 @media (max-width: 1024px) {
-    .flex-column-desktop {
-      flex-direction: column;
-    }
     
     .h-tablet {
       display: none;
@@ -44,10 +41,6 @@
 /* Phone */
 
 @media (max-width: 480px) {
-    .flex-column-desktop {
-      flex-direction: column;
-    }
-    
     .h-desktop {
       display: none;
     }
